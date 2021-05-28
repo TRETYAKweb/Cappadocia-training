@@ -45,7 +45,8 @@ body {
 }
 
 .page-section {
-  margin: 200px 0;
+  margin: 200px auto;
+  max-width: 1920px;
 }
 
 .title {
@@ -65,7 +66,6 @@ body {
   margin-bottom: 100px;
   display: block;
   margin-top: -25px;
-  margin-left: 185px;
 }
 
 a {
@@ -212,17 +212,74 @@ a {
 }
 
 .fairy-tail__text {
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 21px;
-
-  color: #000000;
+  padding: 10px 0;
+}
+.fairy-tail__title span {
+  margin-left: 185px;
 }
 
 .fairy-tail__body-title {
   font-family: "RobotoCondensed-Regular";
-  font-size: 18px;
-  line-height: 21px;
 }
 
 /* Fairy Tail */
+
+/* Our Trip */
+.our-trip__slider {
+  width: 50%;
+  margin-left: auto;
+}
+
+.our-trip__inner {
+  position: relative;
+}
+
+.our-trip__container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.our-trip__title span {
+  margin-left: 245px;
+}
+
+.our-trip__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  align-items: start;
+}
+
+.our-trip__list {
+  margin: 5px 0;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.our-trip__list li:first-child {
+  margin-bottom: 20px;
+  font-family: "RobotoCondensed-Regular";
+}
+
+.our-trip__btn {
+  font-family: "RobotoCondensed-Light";
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding: 17px 53px;
+  border: 1px solid #e2ab3f;
+  transition: 0.3s ease-in-out;
+}
+
+.our-trip__btn:hover,
+.our-trip__btn:focus {
+  background-color: #e2ab3f;
+}
+/* Our Trip */
