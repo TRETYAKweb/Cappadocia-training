@@ -73,7 +73,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -282,4 +282,40 @@ a {
 .our-trip__btn:focus {
   background-color: #e2ab3f;
 }
+
+.trip__content {
+  width: 50%;
+  padding-right: 55px;
+}
 /* Our Trip */
+
+/* Hotel */
+
+.hotel__title span {
+  margin-left: 115px;
+}
+
+.hotel__inner {
+  display: flex;
+}
+
+.hotel__images {
+  margin-right: 100px;
+}
+
+.hotel__text {
+  margin-bottom: 20px;
+}
+
+.hotel__gallery {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotel__gallery a {
+  margin-top: 50px;
+}
+
+/* Hotel */
