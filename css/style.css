@@ -276,6 +276,7 @@ a {
   padding: 17px 53px;
   border: 1px solid #e2ab3f;
   transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .our-trip__btn:hover,
@@ -350,7 +351,105 @@ a {
 .price {
   background-image: url("../images/price__images.png");
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: center right 20%;
 }
 
 /* Price */
+
+/* contacts */
+
+.contacts__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__date,
+.contacts__price {
+  font-family: "Balqis";
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 128px;
+  color: #e2ab3f;
+}
+
+.contacts__date {
+  margin-bottom: 20px;
+}
+
+.contacts__price {
+  margin-left: 120px;
+}
+
+.contacts__date span,
+.contacts__price span {
+  font-family: "RobotoCondensed-LightItalic";
+  display: block;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: -25px;
+  margin-left: 205px;
+  color: #000000;
+}
+
+.contacts__content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.contacts__form {
+  margin-top: 100px;
+  min-width: 383px;
+  margin: 0 auto;
+}
+
+.contacts__form-title {
+  font-family: "RobotoCondensed-Regular";
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.contact__form-input {
+  font-family: "RobotoCondensed-Regular";
+  padding: 0 30px;
+  color: #000;
+  display: block;
+  height: 50px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #e2ab3f;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 300;
+}
+
+.contact__form-input:focus {
+  border: 1.5px solid #e26d3f;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+.contacts__form-btn {
+  font-family: "RobotoCondensed-Light";
+  padding: 11px 45px;
+  background-color: transparent;
+  border: 1px solid #e2ab3f;
+  color: #000;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.contacts__form-btn:hover,
+.contacts__form-btn:focus {
+  background-color: #e2ab3f;
+}
+
+/* contacts */
