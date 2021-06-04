@@ -273,6 +273,7 @@ a {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin-top: 50px;
   padding: 17px 53px;
   border: 1px solid #e2ab3f;
   transition: 0.3s ease-in-out;
@@ -676,6 +677,9 @@ input::placeholder {
 }
 
 @media (max-width: 380px) {
+  .page-section {
+    margin: 20px 0;
+  }
   .title {
     font-size: 50px;
   }
@@ -686,5 +690,64 @@ input::placeholder {
   }
 }
 /* fairy-tail */
+
+/* Our trip */
+@media (max-width: 960px) {
+  .page-section {
+    margin: 100px 0;
+  }
+  .fairy-tail__container,
+  .our-trip__container {
+    position: static;
+  }
+  .our-trip__slider {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .our-trip__item img {
+    height: 70vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .our-trip__body {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+
+  .our-trip__list {
+    /* display: flex; */
+    margin: 0 50px;
+    margin-bottom: 50px;
+  }
+
+  .our-trip__title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 758px) {
+  .our-trip__list {
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 30px; */
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .our-trip__body {
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+    margin: 0 auto;
+  }
+}
+@media (max-width: 580px) {
+  .our-trip__title span {
+    margin-left: 155px;
+    margin-top: -35px;
+  }
+}
+/* Our trip */
 
 /* Adaptive */
